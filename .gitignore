@@ -1,3 +1,8 @@
+######### Upload Specific ########
+db.sqlite3
+##################################
+
+######## Github Generated ########
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
