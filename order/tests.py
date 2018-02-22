@@ -13,8 +13,7 @@ class TestOrderModel(TestCase):
         customer = Customer.objects.create(
             first_name='Staypuff',
             last_name='Marshmallow',
-            street_address_line_1='123 Some Rd',
-            street_address_line_2='Apt 3E',
+            street_address_line='123 Some Rd',
             state='AZ',
             zip_code='23232',
         )
