@@ -39,3 +39,6 @@ sqlite 3
 2. Add authentication using Django's built in authentication
 3. Increased validation of posted data
 4. Add ability to upload large files by using something like S3
+5. Add styling to the form, better error messages, etc.
+6. Upload status, success, failure indication.
+7. Viewing data in the app (easiest to use Django Admin)
