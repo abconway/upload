@@ -10,5 +10,6 @@ class Order(models.Model):
             ('new', 'New'),
             ('canceled', 'Canceled'),
         ),
+        default='new',
     )
     date = models.DateTimeField()
