@@ -8,8 +8,7 @@ class TestCustomerModel(TestCase):
         Customer.objects.create(
             first_name='Staypuff',
             last_name='Marshmallow',
-            street_address_line_1='123 Some Rd',
-            street_address_line_2='Apt 3E',
+            street_address_line='123 Some Rd',
             state='AZ',
             zip_code='23232',
         )
@@ -18,7 +17,6 @@ class TestCustomerModel(TestCase):
 
         self.assertEqual(customer.first_name, 'Staypuff')
         self.assertEqual(customer.last_name, 'Marshmallow')
-        self.assertEqual(customer.street_address_line_1, '123 Some Rd')
-        self.assertEqual(customer.street_address_line_2, 'Apt 3E')
+        self.assertEqual(customer.street_address_line, '123 Some Rd')
         self.assertEqual(customer.state, 'AZ')
         self.assertEqual(customer.zip_code, '23232')
